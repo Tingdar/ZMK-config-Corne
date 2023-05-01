@@ -49,7 +49,7 @@
    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5  &kp F6    &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS &kp KP_DIVIDE
    &bt F7 &bt F8 &bt F9 &bt F10 &bt F11 &bt F12   &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS  &kp KP_MULTIPLY
    &trans &trans &trans &trans &trans &trans      &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL &kp K_CALC
-                            &trans &mo 3 &trans   &kp NLCK &trans &kp KP_N0
+                            &trans &mo 3 &trans   &kp KP_NLCK &trans &kp KP_N0
                         >;
                 };
 
