@@ -28,13 +28,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ~   |  !   |  @   |  #     |   $   |  %   |   |  ^  |  &  |  *  |  (  |  )  |  "  |
-// |  `   | LEFT |  UP  |  DOWN  | RIGHT | INS  |   |     |  _  |  -  |  [  |  ]  |  '  |
-// | CAPS | HOME | PGUP | PGDOWN |  END  | SLCK |   |     | "|" |  \  |  {  |  }  |     |
+// |  `   | LEFT |  UP  |  DOWN  | RIGHT | INS  |   |     |  \  |  -  |  [  |  ]  |  '  |
+// | CAPS | HOME | PGUP | PGDOWN |  END  | SLCK |   |     | "|" |  _  |  {  |  }  |     |
 //                            |     |     | ESC |   |     | TOP |     |
                         bindings = <
    &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp DQT
-   &kp GRAVE &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp INS    &trans &kp UNDER &kp MINUS &kp LBKT &kp RBKT &kp SQT
-   &kp CAPS &kp HOME &kp PG_UP &kp PG_DN &kp END &kp SLCK  &trans &kp PIPE &kp BSLH &kp LBRC &kp RBRC &trans
+   &kp GRAVE &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp INS    &trans &kp BSLH &kp MINUS &kp LBKT &kp RBKT &kp SQT
+   &kp CAPS &kp HOME &kp PG_UP &kp PG_DN &kp END &kp SLCK  &trans &kp PIPE &kp UNDER &kp LBRC &kp RBRC &trans
                                    &trans &trans &kp ESC   &trans &mo 3 &trans
                         >;
                 };
@@ -48,7 +48,7 @@
                         bindings = <
    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5  &kp F6    &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS &kp KP_DIVIDE
    &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS  &kp KP_MULTIPLY
-   &trans &trans &trans &trans &trans &trans      &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL &kp K_CALC
+   &trans &trans &trans &trans &trans &trans      &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp EQUAL &kp C_AL_CALC
                             &trans &mo 3 &trans   &kp KP_NLCK &trans &kp KP_N0
                         >;
                 };
