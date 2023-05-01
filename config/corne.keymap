@@ -28,13 +28,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ~   |  !   |  @   |  #     |   $   |  %   |   |  ^  |  &  |  *  |  (  |  )  |  "  |
-// |  `   | LEFT |  UP  |  DOWN  | RIGHT | INS  |   |     |  \  |  -  |  [  |  ]  |  '  |
-// | CAPS | HOME | PGUP | PGDOWN |  END  | SLCK |   |     | "|" |  _  |  {  |  }  |     |
+// |  `   | LEFT |  UP  |  DOWN  | RIGHT | INS  |   |  =  |  \  |  -  |  [  |  ]  |  '  |
+// | CAPS | HOME | PGUP | PGDOWN |  END  | SLCK |   |  +  | "|" |  _  |  {  |  }  |     |
 //                            |     |     | ESC |   |     | TOP | CTRL |
                         bindings = <
    &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp DQT
-   &kp GRAVE &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp INS    &trans &kp BSLH &kp MINUS &kp LBKT &kp RBKT &kp SQT
-   &kp CAPS &kp HOME &kp PG_UP &kp PG_DN &kp END &kp SLCK  &trans &kp PIPE &kp UNDER &kp LBRC &kp RBRC &trans
+   &kp GRAVE &kp LEFT &kp UP &kp DOWN &kp RIGHT &kp INS    &kp EQUAL &kp BSLH &kp MINUS &kp LBKT &kp RBKT &kp SQT
+   &kp CAPS &kp HOME &kp PG_UP &kp PG_DN &kp END &kp SLCK  &kp PLUS &kp PIPE &kp UNDER &kp LBRC &kp RBRC &trans
                                    &trans &trans &kp ESC   &trans &mo 3 &kp RCTRL
                         >;
                 };
